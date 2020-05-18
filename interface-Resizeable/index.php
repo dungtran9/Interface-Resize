@@ -32,4 +32,5 @@ $square = new Square('Square 01', 4 , 4, 4);
 echo 'Rectangle area: ' . $square->calculateArea() . '<br />';
 echo 'Rectangle perimeter: ' . $square->calculatePerimeter() . '<br />';
 $square->resize(50);
-echo $square->calculateArea();
+echo $square->calculateArea().'<br>';
+$square->howToColor(5);
